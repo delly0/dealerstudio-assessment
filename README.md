@@ -1,40 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Dealer Studio Technical Assessment - Junior Developer
 
-## Getting Started
+This is the technical assessment submission for the Junior Developer role at Dealer Studio. It demonstrates proficiency in React/Next.js, component design, TailwindCSS styling, state management, and responsive front-end architecture.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React / Next.js** app using functional components and hooks
+- **TailwindCSS** for responsive styling
+- **Components built from scratch**:
+  - `Card`, `CardImage`, `CardHeader`, `CardBody`, `Button`
+- **Responsive design**:
+  - Single-column layout on mobile
+  - Multi-column layout on desktop
+  - Last row centers when odd number of cards
+- **State management**:
+  - Middle card selected on load
+  - Clicking a card updates selection dynamically
+- **Light/Dark mode toggle**
+- **Image hover overlay** with CTA text
+- **Loading and error states** when fetching card data
+- **Unit tests** using Vitest + React Testing Library for:
+  - Selected card border logic
+  - Middle card selection
+  - Dark mode toggle
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Node.js v18+ recommended
+- npm or yarn
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Heading 1",
+    "subtitle": "Subheading 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    "image": "https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/brisbane_vgpzva.jpg",
+    "buttonText": "Button 1"
+  },
+  {
+    "id": 2,
+    "title": "Heading 2",
+    "subtitle": "Subheading 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    "image": "https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/brisbane_vgpzva.jpg",
+    "buttonText": "Button 2"
+  },
+  {
+    "id": 3,
+    "title": "Heading 3",
+    "subtitle": "Subheading 3",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+      "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    ],
+    "image": "https://res.cloudinary.com/total-dealer/image/upload/v1687754017/test/brisbane_vgpzva.jpg",
+    "buttonText": "Button 3"
+  }
+]
