@@ -2,6 +2,11 @@
 
 This is the technical assessment submission for the Junior Developer role at Dealer Studio. It demonstrates proficiency in React/Next.js, component design, TailwindCSS styling, state management, and responsive front-end architecture.
 
+## Deployed Project
+
+Check out the deployed app here: [https://dealerstudio-assessment.vercel.app](https://dealerstudio-assessment.vercel.app)
+
+
 ## Features
 
 - **React / Next.js** app using functional components and hooks
